@@ -18,7 +18,7 @@
   <body data-spy="croll" data-target="navbarResponsive">
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                    <a class="navbar-brand text-blue"  href="/Asturias/">
+                    <a class="navbar-brand text-blue"  href="./">
                         <img src="images/logo.png" >           
                     </a>
 
