@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Lato' ,sans-serif;
+    color: #505962;
+    background-color: #505962;
+    overflow-x: hidden;
+}
+/*-------------Navigation -------------------------------*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0,0,0,.6)!important;
+    
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #4099ed;
+}
+
+/*------------- landing ---------------------------------*/
+
+.home-inner{
+    background: url(images/Verducido.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%; 
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    transform: translateY(8%)
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3 {
+    font-style: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+/*------------- encabezado salidas---------------------------------*/
+.salidas{
+    background: url(images/recortada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.salidas h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+/*------------- encabezado resultados---------------------------------*/
+.resultados{
+    background: url(images/k2-men.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.resultados h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+/*------------- encabezado finish---------------------------------*/
+.finish{
+    background: url(images/finish.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.finish h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+/************* FOOTER ************/
+
+.navbar .footer h5 {
+    font-family: 'Indie+Flower';
+    color: #fff;
+    font-size: 0.7rem;
+    text-shadow: .1rem .1rem .8rem black;
+    text-align: center;
+    text-transform: initial;
+}
+
+/************************ TABLA ***************************************/
+
+.tabla {
+    margin-bottom: 15px;
+}
+
+/********************** FINISH ******************************************/
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.card-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Indie+Flower';
+    font-size: 1.4rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.text-muted {
+    color: white;
+}
