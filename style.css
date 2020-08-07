@@ -42,7 +42,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 .caption{
     width: 100%;
@@ -55,19 +54,22 @@ body{
     transform: translateY(8%)
 }
 .caption h1{
-    font-size: 3.8rem;
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
 .caption h3 {
-    font-style: 2rem;
+    font-style: 4vw;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1.6rem;
 }
 
 /*------------- encabezado salidas---------------------------------*/
+
+
+
 .salidas{
     background: url(images/recortada.jpg);
     background-position: center center;
@@ -80,16 +82,61 @@ body{
 .salidas h1{
     color: white;
     text-transform: uppercase;
-    font-size: 3.8rem;
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 601px) {
+    .salidas{
+        background: url(images/recortada.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        height: 400px;
+    }
+
+    .salidas h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .salidas{
+        background: url(images/recortada.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        height: 180px;
+    }
+
+    .salidas h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 8vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+        transform: translateY(35%)
+    }
+}
+
+
+
 /*------------- encabezado resultados---------------------------------*/
 .resultados{
-    background: url(images/k2-men.jpg);
+    background: url(images/k1-men.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -107,10 +154,54 @@ body{
     padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 601px) {
+    .resultados{
+        background: url(images/k1-men.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .resultados h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resultados{
+        background: url(images/k1-men.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        height: 170px;
+    }
+
+    .resultados h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 8vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+        transform: translateY(35%)
+    }
+}
+
+
 /*------------- encabezado finish---------------------------------*/
 .finish{
     background: url(images/finish.jpg);
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -126,6 +217,50 @@ body{
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 601px) {
+    .finish{
+        background: url(images/finish.jpg);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .finish h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .finish{
+        background: url(images/finish.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        height: 180px;
+    }
+
+    .finish h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 8vw;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+        transform: translateY(35%)
+    }
+}
+
 
 /************* FOOTER ************/
 
