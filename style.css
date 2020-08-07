@@ -89,7 +89,7 @@ body{
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 601px) {
     .salidas{
         background: url(images/recortada.jpg);
         background-position: top center;
@@ -140,7 +140,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     height: 400px;
 }
 
@@ -154,13 +154,13 @@ body{
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 601px) {
     .resultados{
         background: url(images/k1-men.jpg);
-        background-position: center center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: contain;
         height: 400px;
     }
 
@@ -201,10 +201,10 @@ body{
 /*------------- encabezado finish---------------------------------*/
 .finish{
     background: url(images/finish.jpg);
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     height: 400px;
 }
 
@@ -218,13 +218,13 @@ body{
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 601px) {
     .finish{
         background: url(images/finish.jpg);
-        background-position: bottom center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: contain;
         height: 400px;
     }
 
